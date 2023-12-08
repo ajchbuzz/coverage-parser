@@ -21,7 +21,7 @@ function start(){
         .parseGlobs(filePath, {
             type: fileType
         })
-        .then(results => console.log(results));
+        .then(results => console.log(JSON.stringify(results)));
 }
 
 module.exports = {
