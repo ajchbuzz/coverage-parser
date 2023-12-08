@@ -23,6 +23,9 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
+  "bin": {
+    "coverage-parser": "./bin/coverage-cli"
+  },
   "dependencies": {
     "@cvrg-report/clover-json": "^0.1.0",
     "bluebird": "^3.5.2",
