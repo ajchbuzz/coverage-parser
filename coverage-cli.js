@@ -6,14 +6,13 @@ function start(){
     const arg = process.argv;
     const filePath = arg[2];
     const fileType = arg[3];
-
     if (!fs.existsSync(filePath)) {
         console.error('unable to read file '+filePath);
         return;
     } 
     // check if filetype is available in fileparsers.types 
 
-    if(!fileParsers.types.indexOf(fileType)){
+    if(!(fileParsers.types.indexOf(fileType)>-1)){
         console.error('invalid file type, supported types are :'+fileParsers.types);
         return;
     }
