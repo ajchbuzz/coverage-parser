@@ -19,7 +19,8 @@ function start(){
 
     parser
         .parseGlobs(filePath, {
-            type: fileType
+            type: fileType,
+            pathMode:'unmodified'
         })
         .then(results => console.log(JSON.stringify(parseOutput(results))));
 }
