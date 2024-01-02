@@ -32,7 +32,7 @@
     "cobertura-parse": "^1.0.5",
     "fast-glob": "^2.2.3",
     "golang-cover-parse": "^2.0.0",
-    "jacoco-parse": "^2.0.1",
+    "jacoco-parse": "ajchbuzz/jacoco-parse",
     "lcov-parse": "^1.0.0",
     "lodash": "^4.17.11"
   }
